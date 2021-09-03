@@ -7,7 +7,7 @@
 
 BOARD_VENDOR := oneplus
 
-DEVICE_PATH := device/oneplus/guacamole
+DEVICE_PATH := device/oneplus/guacamolev2
 
 # Architecture
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
@@ -28,7 +28,7 @@ SOONG_CONFIG_ONEPLUS_MSMNILE_FOD_POS_Y = 2618
 SOONG_CONFIG_ONEPLUS_MSMNILE_FOD_SIZE = 220
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/sm8150-perf-v2_defconfig
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
