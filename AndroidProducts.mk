@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_guacamolev2.mk
+    $(LOCAL_DIR)/twrp_guacamole.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_guacamolev2-user \
-    twrp_guacamolev2-userdebug \
-    twrp_guacamolev2-eng
+    twrp_guacamole-user \
+    twrp_guacamole-userdebug \
+    twrp_guacamole-eng
