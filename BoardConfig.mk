@@ -7,14 +7,11 @@
 
 BOARD_VENDOR := oneplus
 
-DEVICE_PATH := device/oneplus/guacamolev2
+DEVICE_PATH := device/oneplus/guacamole
 
 # Architecture
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-
-# Assertation
-TARGET_OTA_ASSERT_DEVICE := guacamole,OnePlus7Pro,OnePlus7Pro_EEA,OnePlus7Pro_CH
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -46,7 +43,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
-#TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Sensors
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 1000
